@@ -1,13 +1,11 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'st-root',
   standalone: true,
   imports: [RouterOutlet],
   template: `<router-outlet></router-outlet>`,
-  styleUrl: './app.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent {
-  title = 'cheapest';
-}
+export class AppComponent {}
