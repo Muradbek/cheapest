@@ -23,7 +23,8 @@
     "useDefineForClassFields": false,
     "baseUrl": ".",
     "paths": {
-      "@st/core": ["src/app/core/index.ts"]
+      "@st/core": ["src/app/core/index.ts"],
+      "@st/ui/layout": ["src/app/ui/layout/index.ts"]
     }
   },
   "angularCompilerOptions": {
